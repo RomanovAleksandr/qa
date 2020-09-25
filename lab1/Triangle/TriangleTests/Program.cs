@@ -22,7 +22,8 @@ namespace TriangleTests
                         {
                             StartInfo = new ProcessStartInfo
                             {
-                                FileName = "C:\\Users\\Александр\\Documents\\2020\\qa\\lab1\\Triangle\\Triangle\\bin\\Debug\\netcoreapp3.1\\Triangle.exe",
+                                //FileName = "C:\\Users\\Александр\\Documents\\2020\\qa\\lab1\\Triangle\\Triangle\\bin\\Debug\\netcoreapp3.1\\Triangle.exe",
+                                FileName = @"..\..\..\..\Triangle\bin\Debug\netcoreapp3.1\Triangle.exe",
                                 Arguments = arguments,
                                 UseShellExecute = false,
                                 RedirectStandardOutput = true,
